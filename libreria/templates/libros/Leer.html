@@ -1,0 +1,86 @@
+{% extends "base.html" %}
+
+{% block titulo %} Leer Manga {% endblock %} 
+
+{% block contenido %} 
+
+<div class="row">
+    <div class="col-md-3">
+        <div class="card" style="background-color:black;">
+            <img class="card-img-top" src="https://i2.mtcdn.xyz/chapters/one-piece/1/9af4c19c8cccf5e2b58a8616474523949772f0cb.webp" alt="Title"
+            width="300"
+            height="350">
+            <div class="card-body" >
+                <p class="card-text">
+                    <div class="d-grid gap-2">
+                        <a name="" id="" class="btn btn-outline-light" href="{% url 'Capitulo1One' %}" role="button">Capitulo 1</a>
+                      </div>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card" style="background-color: black;">
+            <img class="card-img-top" src="https://i2.mtcdn.xyz/chapters/one-piece/2/9af4c19c8cccf5e2b58a8616474523949772f0cb.webp" alt="Title"
+            width="300"
+            height="350">
+            <div class="card-body">
+                <p class="card-text">
+                    <div class="d-grid gap-2">
+                        <a name="" id="" class="btn btn-outline-light" href="#" role="button">Capitulo 2</a>
+                      </div>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card" style="background-color:black">
+            <img class="card-img-top" src="https://i2.mtcdn.xyz/chapters/one-piece/3/9af4c19c8cccf5e2b58a8616474523949772f0cb.webp" alt="Title"
+            width="300"
+            height="350">
+            <div class="card-body">
+                <p class="card-text">
+                    <div class="d-grid gap-2">
+                        <a name="" id="" class="btn btn-outline-light" href="#" role="button">Capitulo 3</a>
+                      </div>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card" style="background-color:black">
+            <img class="card-img-top" src="https://i2.mtcdn.xyz/chapters/one-piece/4/9af4c19c8cccf5e2b58a8616474523949772f0cb.webp" alt="Title"
+            width="300"
+            height="350">
+            <div class="card-body">
+                <p class="card-text">
+                    <div class="d-grid gap-2">
+                        <a name="" id="" class="btn btn-outline-light" href="#" role="button">Capitulo 4</a>
+                      </div>
+                </p>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+
+
+<div class="row" >
+    <div class="col-md-14 d-flex justify-content-center">
+        <div class="card" style="background-color:black;">
+            <img class="card-img-top" src="https://i2.mtcdn.xyz/chapters/one-piece/5/9af4c19c8cccf5e2b58a8616474523949772f0cb.webp" alt="Title"
+            width="400"
+            height="400">
+            <div class="card-body">
+                <p class="card-text">
+                    <div class="d-grid gap-2">
+                        <a name="" id="" class="btn btn-outline-light" href="{% url 'Leer' %}" role="button">Capitulo 5</a>
+                      </div>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
